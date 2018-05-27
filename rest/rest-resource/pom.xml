@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>repository-rest-resource</name>
-    <description>That is a example from a JPA repository exposed itself as a RESTful resource</description>
+    <description>That is a RESTful resource example</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
