@@ -1,4 +1,4 @@
-package com.thiagojavabr.repositoryrestresource.domain;
+package com.thiagojavabr.restresource.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

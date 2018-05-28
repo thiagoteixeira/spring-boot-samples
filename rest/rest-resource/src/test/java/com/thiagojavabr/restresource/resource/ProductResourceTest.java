@@ -1,25 +1,17 @@
-package com.thiagojavabr.repositoryrestresource.resource;
+package com.thiagojavabr.restresource.resource;
 
 
 
-import com.thiagojavabr.repositoryrestresource.domain.Product;
+import com.thiagojavabr.restresource.domain.Product;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.context.TestComponent;
 import org.springframework.boot.test.web.client.TestRestTemplate;
-import org.springframework.context.ApplicationContext;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.web.reactive.server.WebTestClient;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.RequestBuilder;
-import org.springframework.web.client.HttpClientErrorException;
-import org.springframework.web.client.RestTemplate;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.math.BigDecimal;

@@ -1,7 +1,7 @@
-package com.thiagojavabr.repositoryrestresource.resource;
+package com.thiagojavabr.restresource.resource;
 
-import com.thiagojavabr.repositoryrestresource.domain.Product;
-import com.thiagojavabr.repositoryrestresource.repository.ProductRepository;
+import com.thiagojavabr.restresource.domain.Product;
+import com.thiagojavabr.restresource.repository.ProductRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

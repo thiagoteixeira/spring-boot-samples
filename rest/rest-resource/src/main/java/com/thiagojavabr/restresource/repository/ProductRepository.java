@@ -1,7 +1,7 @@
-package com.thiagojavabr.repositoryrestresource.repository;
+package com.thiagojavabr.restresource.repository;
 
 
-import com.thiagojavabr.repositoryrestresource.domain.Product;
+import com.thiagojavabr.restresource.domain.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

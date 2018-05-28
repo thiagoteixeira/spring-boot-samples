@@ -1,4 +1,4 @@
-package com.thiagojavabr.repositoryrestresource;
+package com.thiagojavabr.restresource;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

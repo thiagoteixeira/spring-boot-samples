@@ -1,4 +1,4 @@
-package com.thiagojavabr.repositoryrestresource;
+package com.thiagojavabr.restresource;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
