@@ -33,12 +33,11 @@ public class ProductResourceTest {
     private String baseUri;
     private TestRestTemplate restTemplate = new TestRestTemplate();
 
-
     // Assert attributes
     private static final int PRODUCT_LIST_SIZE = 3;
-    private static final Long PRODUCT_ID_TO_FIND_ONE = 3L;
-    private static final Long PRODUCT_ID_TO_DELETE = 2L;
-    private static final Long PRODUCT_ID_TO_UPDATE = 1L;
+    private static final long PRODUCT_ID_TO_FIND_ONE = 3L;
+    private static final long PRODUCT_ID_TO_DELETE = 2L;
+    private static final long PRODUCT_ID_TO_UPDATE = 1L;
 
     @Before
     public void setup(){
