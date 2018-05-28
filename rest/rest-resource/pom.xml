@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.thiagojavabr</groupId>
-    <artifactId>repository-rest-resource</artifactId>
+    <artifactId>rest-resource</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>repository-rest-resource</name>
+    <name>rest-resource</name>
     <description>That is a RESTful resource example</description>
 
     <parent>
