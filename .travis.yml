@@ -5,4 +5,4 @@ os:
 language: java
 jdk:
   - oraclejdk8
-script: "mvn clean install"
+script: "mvn clean install -f rest/rest-resource-basic-authentication/pom.xml"
