@@ -3,6 +3,11 @@ sudo: false # faster builds
 os:
   - linux
 language: java
+cache:
+  directories:
+    - $HOME/.m2
+    - $HOME/.gradle
 jdk:
-  - oraclejdk8
+  - oraclejdk10
 script: "mvn clean install -f rest/rest-resource-basic-authentication/pom.xml"
+
